@@ -12,6 +12,7 @@ def no_flash():
         if player:
             flash_value = player + m_flFlashMaxAlpha
             if flash_value:
+                # Sets flash value to 0.
                 pm.write_float(flash_value, float(0))
 
 
