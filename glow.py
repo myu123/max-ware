@@ -3,7 +3,7 @@ import pymem.process
 from cs_offsets import *
 
 def glow():
-    print("MaxWare has been launched!")
+    print("MaxWare has launched!")
     pm = pymem.Pymem("csgo.exe")
     client = pymem.process.module_from_name(pm.process_handle, "client.dll").lpBaseOfDll
 
